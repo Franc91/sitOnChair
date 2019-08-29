@@ -75,7 +75,6 @@ header .container{
     align-items: center;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid red;
 }
 .nav-list > ul > li > ul > li {
     padding: 10px;
@@ -133,6 +132,24 @@ article .slider button{
     color: #26BFA3;
     outline: none; 
     cursor: pointer;
+}
+article .see-More{
+    color: white;
+    cursor: pointer;
+    border: none;
+    position: relative;
+}
+article .see-More:hover{
+    -webkit-box-shadow: -6px -3px 6px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: -6px -3px 6px -3px rgba(0,0,0,0.5);
+    box-shadow: -6px -3px 6px -3px rgba(0,0,0,0.5);
+}
+article .see-More:active{
+    left: 2px;
+    top: 2px;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
 }
 .two article{
     display: flex;
