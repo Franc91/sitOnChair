@@ -135,9 +135,7 @@ article .slider button{
 }
 article .see-More{
     outline: none;
-    color: white;
     cursor: pointer;
-    border: none;
     position: relative;
 }
 article .see-More:hover{
